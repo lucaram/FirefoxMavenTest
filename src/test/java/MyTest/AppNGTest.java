@@ -16,9 +16,13 @@ public class AppNGTest {
     public void verifyHomepageTitle() {
         driver.get(baseUrl);
         //Thread.sleep(3000);
-        String expectedTitle = "Ai Margini";
+        String expectedTitle = "Alkjhsflksd.,i Margini";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle, expectedTitle);
-        driver.quit();
+    }
+    
+     @AfterTest   
+     public void after() {
+             driver.quit();
     }
 }
