@@ -5,7 +5,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-apublic class AppNGTest {
+public class AppNGTest {
     public String baseUrl = "http://newtours.demoaut.com/";
     public WebDriver driver = new FirefoxDriver();
     
