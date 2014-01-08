@@ -13,10 +13,10 @@ public class AppNGTest {
     
     
     @Test
-    public void verifyHomepageTitle() throws InterruptedException {
+    public void verifyHomepageTitle() {
         driver.get(baseUrl);
-        Thread.sleep(3000);
-        String expectedTitle = "Ai Margini";
+        //Thread.sleep(3000);
+        String expectedTitle = "aAi Margini";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle, expectedTitle);
         driver.quit();
