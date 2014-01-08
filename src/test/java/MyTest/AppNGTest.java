@@ -8,7 +8,7 @@ import org.testng.annotations.*;
 
 public class AppNGTest {
     //public String baseUrl = "http://newtours.demoaut.com/";
-    public String baseUrl = "http://www.aimargini.com";
+    ksjhspublic String baseUrl = "http://www.aimargini.com";
     public WebDriver driver = new FirefoxDriver();
     
     
