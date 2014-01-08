@@ -16,7 +16,7 @@ public class AppNGTest {
     public void verifyHomepageTitle() throws InterruptedException {
         driver.get(baseUrl);
         Thread.sleep(3000);
-        String expectedTitle = "Aaai Margini";
+        String expectedTitle = "Ai Margini";
         String actualTitle = driver.getTitle();
         Assert.assertEquals(actualTitle, expectedTitle);
         driver.quit();
